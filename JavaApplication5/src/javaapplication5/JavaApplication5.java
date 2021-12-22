@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package javaapplication5;
-
+import java.util.Scanner;
 /**
  *
  * @author ausias
@@ -16,7 +16,10 @@ public class JavaApplication5 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner scan = new Scanner(System.in);
         System.out.println("Hello world");
+        System.out.println("Introdueix un valor: ");
+        int num = scan.nextInt();
     }
     
 }
